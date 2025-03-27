@@ -1,0 +1,8 @@
+{
+	"nodes":[
+		{"id":"af8ae622317e56d8","type":"link","url":"https://saduck.top","x":-600,"y":-750,"width":600,"height":470},
+		{"id":"ee32b2479a7cb6a2","type":"link","url":"https://easyai.tech","x":0,"y":-750,"width":600,"height":470},
+		{"id":"ca259559d8978a57","type":"file","file":"碎片.md","x":-500,"y":-80,"width":400,"height":400}
+	],
+	"edges":[]
+}
