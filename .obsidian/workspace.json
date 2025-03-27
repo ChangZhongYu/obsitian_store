@@ -1,24 +1,42 @@
 {
   "main": {
-    "id": "813c3b71cea7f96c",
+    "id": "2cddbb1610d45603",
     "type": "split",
     "children": [
       {
-        "id": "66da1bb47f40a6e2",
+        "id": "4c5e3716d70fc5bd",
         "type": "tabs",
+        "dimension": 64.98194945848375,
         "children": [
           {
-            "id": "39ab09e089deab10",
+            "id": "fb3ec4affdd87cec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "碎片.md",
+                "file": "Git学习记录.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "碎片"
+              "title": "Git学习记录"
+            }
+          }
+        ]
+      },
+      {
+        "id": "61d473ada719a51b",
+        "type": "tabs",
+        "dimension": 35.018050541516246,
+        "children": [
+          {
+            "id": "6494173fb9afcfc7",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "关系图谱"
             }
           }
         ]
@@ -27,15 +45,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "177979074f1c2e16",
+    "id": "0dab0fa103cd5505",
     "type": "split",
     "children": [
       {
-        "id": "dc15422cd18658d6",
+        "id": "f884a9eb24438e7d",
         "type": "tabs",
         "children": [
           {
-            "id": "d58800f84070183c",
+            "id": "93af6fbc2099fce6",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,7 +66,7 @@
             }
           },
           {
-            "id": "845f990fc20f62f6",
+            "id": "4d086bf594b00e04",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -65,7 +83,7 @@
             }
           },
           {
-            "id": "22383db03125d0d4",
+            "id": "86eb0d563ece3dfc",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -78,23 +96,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 218.5
+    "width": 300
   },
   "right": {
-    "id": "83c297e8bf15a0ff",
+    "id": "ae7a111fac750215",
     "type": "split",
     "children": [
       {
-        "id": "1076531b66bc0209",
+        "id": "fd7e7f762ed6572a",
         "type": "tabs",
         "children": [
           {
-            "id": "15d900bfa699d896",
+            "id": "327d45ea50c32e1c",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "碎片.md",
+                "file": "白板测试.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,25 +122,25 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "碎片 的反向链接列表"
+              "title": "白板测试 的反向链接列表"
             }
           },
           {
-            "id": "ee546951418f3c92",
+            "id": "a27e69a07bbf502a",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "碎片.md",
+                "file": "白板测试.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "碎片 的出链列表"
+              "title": "白板测试 的出链列表"
             }
           },
           {
-            "id": "4bc15392a19e00b5",
+            "id": "54730f107cb7acf1",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -137,22 +155,22 @@
             }
           },
           {
-            "id": "ea6f183d4162e5da",
+            "id": "7a57eeb7b19a63bb",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "碎片.md",
-                "followCursor": true,
+                "file": "白板测试.canvas",
+                "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "碎片 的大纲"
+              "title": "白板测试 的大纲"
             }
           },
           {
-            "id": "b896da8877472bfa",
+            "id": "fc48343f6a8605cc",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -165,36 +183,32 @@
               "title": "添加笔记属性"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
       "markdown-importer:打开 Markdown 格式转换器": false,
+      "audio-recorder:开始/结束录音": false,
+      "publish:发布更改": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "publish:发布更改": false,
-      "audio-recorder:开始/结束录音": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "39ab09e089deab10",
+  "active": "fb3ec4affdd87cec",
   "lastOpenFiles": [
-    "Git学习记录.md",
-    "碎片.md",
     "白板测试.canvas",
+    "碎片.md",
     "markdown使用说明.md",
-    "未命名.md",
-    "2025-03-27.md",
-    "导航/任务空间.md",
-    "导航",
-    "2023-11-16.md"
+    "Git学习记录.md",
+    "欢迎.md"
   ]
 }

@@ -28,6 +28,9 @@ gti diff HEAD -- 对比文件名称
 # 撤销暂存
 git restore --staged 文件名
 
+# 清除未跟踪的文件
+git clean -f -d
+
 # 撤销上一次命令
 git reset HEAD 文件名（）
 
@@ -78,9 +81,65 @@ git fetch
 git pull
 ```
 
+### github同步命令
+
+1. 初始化Git仓库            
+
+```bash
+git init
+
+# 抓取远程分支
+git pull origin main/master
+```
+
+2. 添加远程仓库地址
+
+```bash
+git remote add origin 仓库URL
+
+# 更改
+git remote set-url origin 仓库ssh
+```
+
+3. 将更改文件添加到缓存区
+
+```bash
+git add . | 具体文件名
+```
+
+4. 提交更改文件
+
+```bash
+git commit -m "提交说明"
+```
+
+5. 推送至远程仓库
+
+```bash
+git push -u origin main/master
+```
+
+其他配置
+
+```bash
+# 查看远程地址
+git remote -v
+
+# 查看当前代理
+git config --global --get http.proxy
+git config --global --get https.proxy
+
+# 设置代理
+git config --global http.proxy http://127.0.0.1:7890
+git config --global https.proxy http://127.0.0.1:7890
+
+# 清除代理
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
+
 在Idea中使用git
  1. 配置idea
  2. 初始化本地仓库
  3. 配置忽视文件
  4. 提交或推送
-
