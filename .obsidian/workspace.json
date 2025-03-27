@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "碎片.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -187,9 +187,9 @@
   },
   "active": "39ab09e089deab10",
   "lastOpenFiles": [
-    "白板测试.canvas",
     "Git学习记录.md",
     "碎片.md",
+    "白板测试.canvas",
     "markdown使用说明.md",
     "未命名.md",
     "2025-03-27.md",
