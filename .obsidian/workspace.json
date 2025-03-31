@@ -6,37 +6,22 @@
       {
         "id": "4c5e3716d70fc5bd",
         "type": "tabs",
-        "dimension": 64.98194945848375,
         "children": [
           {
             "id": "fb3ec4affdd87cec",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Git学习记录.md",
-                "mode": "source",
-                "source": false
+                "file": "白板测试.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": -255.00000000000003,
+                  "zoom": -0.74449233080109
+                }
               },
-              "icon": "lucide-file",
-              "title": "Git学习记录"
-            }
-          }
-        ]
-      },
-      {
-        "id": "61d473ada719a51b",
-        "type": "tabs",
-        "dimension": 35.018050541516246,
-        "children": [
-          {
-            "id": "6494173fb9afcfc7",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "关系图谱"
+              "icon": "lucide-layout-dashboard",
+              "title": "白板测试"
             }
           }
         ]
@@ -205,10 +190,10 @@
   },
   "active": "fb3ec4affdd87cec",
   "lastOpenFiles": [
-    "白板测试.canvas",
     "碎片.md",
-    "markdown使用说明.md",
     "Git学习记录.md",
+    "markdown使用说明.md",
+    "白板测试.canvas",
     "欢迎.md"
   ]
 }
