@@ -4,47 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "4c5e3716d70fc5bd",
+        "id": "cf437b1b5d2e7f73",
         "type": "tabs",
         "children": [
           {
-            "id": "fb3ec4affdd87cec",
+            "id": "12b0c5796f172b48",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "故障排除.png"
+                "file": "《社会性动物》.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "故障排除"
-            }
-          },
-          {
-            "id": "79452f0ad54bda4d",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "故障排除.png"
-              },
-              "icon": "lucide-image",
-              "title": "故障排除"
-            }
-          },
-          {
-            "id": "6e7324f2e5a1e39b",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "故障排除.png"
-              },
-              "icon": "lucide-image",
-              "title": "故障排除"
+              "icon": "lucide-file",
+              "title": "《社会性动物》"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "白板测试.canvas",
+                "file": "《五种语言》.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "白板测试 的反向链接列表"
+              "title": "《五种语言》 的反向链接列表"
             }
           },
           {
@@ -208,19 +185,20 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "6e7324f2e5a1e39b",
+  "active": "12b0c5796f172b48",
   "lastOpenFiles": [
+    "《五种语言》.md",
     "碎片.md",
-    "白板测试.canvas",
-    "故障排除.png",
-    "markdown使用说明.md",
-    "Git学习记录.md",
+    "《社会性动物》.md",
     "装修.md",
-    "新概念（第一册）单词 1.md",
+    "《挪威的森林》.md",
+    "Git学习记录.md",
+    "故障排除.png",
     "新概念（第一册）单词.md",
-    "未命名.md",
+    "新概念（第一册）单词 1.md",
+    "白板测试.canvas",
+    "markdown使用说明.md",
     "output.md",
-    "2025-03-27.md",
     "output 1.md",
     "欢迎.md"
   ]
