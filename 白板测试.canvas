@@ -2,8 +2,8 @@
 	"nodes":[
 		{"id":"af8ae622317e56d8","type":"link","url":"https://saduck.top","x":-600,"y":-750,"width":600,"height":470},
 		{"id":"ee32b2479a7cb6a2","type":"link","url":"https://easyai.tech","x":0,"y":-750,"width":600,"height":470},
-		{"id":"ca259559d8978a57","type":"file","file":"碎片.md","x":-600,"y":-200,"width":600,"height":440},
-		{"id":"e3dfe0eb9baed439","x":0,"y":-200,"width":600,"height":440,"type":"file","file":"Git学习记录.md"}
+		{"id":"ca259559d8978a57","type":"file","file":"文摘/碎片.md","x":-600,"y":-200,"width":600,"height":440},
+		{"id":"e3dfe0eb9baed439","x":0,"y":-200,"width":600,"height":440,"type":"file","file":"学习/Git学习记录.md"}
 	],
 	"edges":[
 		{"id":"19048456feb64b8a","fromNode":"ca259559d8978a57","fromSide":"right","toNode":"e3dfe0eb9baed439","toSide":"left"},
