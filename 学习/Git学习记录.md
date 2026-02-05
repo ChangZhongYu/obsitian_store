@@ -8,19 +8,35 @@ Git 版本控制工具
 | 缓存区  | 已暂存      | git commit | 提交本地仓库 |
 | 本地仓库 | 已提交      |            |        |
 
-常用命令：
+### 常用命令：
 
-``` bash
+#### query
+
+```bash
+1. 查看本地分支：git branch
+    
+2. 查看远程分支：git branch -r
+    
+3. 查看所有分支（本地和远程）：git branch -a
+   
+4. 查看本地分支与远程分支的追踪关系：git branch -vv
+   
 # 获取文件状态
 git status
-
-# 提交并说明
-git commit -m '说明' |-am 缓存并提交  
-
+   
 # 查看提交日志
 git log |--pretty=oneline 格式化展示
+git log --graph --oneline --all -n 5
 
-git reflog 查看历史操作
+# 查看历史操作
+git reflog
+
+```
+#### opertor
+
+``` bash
+# 提交并说明
+git commit -m '说明' |-am 缓存并提交  
 
 # 对比工作区文件和仓库文件
 gti diff HEAD -- 对比文件名称
@@ -72,6 +88,9 @@ git clone
 # 抓取（更新不合并）
 git fetch 
 
+# 获取远程仓库origin的所有分支的更新
+git fetch origin
+
 # 拉取（合并本地代码）
 git pull
 ```
@@ -116,6 +135,9 @@ git commit -m "提交说明"
 
 ```bash
 git push -u origin main/master
+
+# 强制推送
+git push --force origin main
 ```
 
 ### GitHub拉取命令
